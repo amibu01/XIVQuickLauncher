@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Threading;
@@ -848,6 +849,10 @@ namespace XIVLauncher.Windows
                 {
                     case ClientLanguage.Japanese:
                         url = "https://jp.finalfantasyxiv.com/lodestone/news/detail/";
+                        break;
+
+                    case ClientLanguage.English when Util.IsRegionNorthAmerica():
+                        url = "https://na.finalfantasyxiv.com/lodestone/news/detail/";
                         break;
 
                     case ClientLanguage.English:

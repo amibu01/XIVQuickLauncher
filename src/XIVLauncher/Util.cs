@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Net.NetworkInformation;
@@ -31,6 +32,14 @@ namespace XIVLauncher
             var asm = typeof(Util).Assembly;
             var attrs = asm.GetCustomAttributes<AssemblyMetadataAttribute>();
             return attrs.FirstOrDefault(a => a.Key == "GitHash")?.Value;
+        }
+
+        /// <summary>
+        ///     Returns <see langword="true"/> if the current system region is set to North America.
+        /// </summary>
+        public static bool IsRegionNorthAmerica()
+        {
+            return RegionInfo.CurrentRegion.ThreeLetterISORegionName is "USA" or "MEX" or "CAN";
         }
 
         public static string GetAssemblyVersion()

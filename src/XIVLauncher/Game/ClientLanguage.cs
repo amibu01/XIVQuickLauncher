@@ -17,6 +17,9 @@
                 case ClientLanguage.Japanese:
                     return "ja";
 
+                case ClientLanguage.English when Util.IsRegionNorthAmerica():
+                    return "en-us";
+
                 case ClientLanguage.English:
                     return "en-gb";
 
