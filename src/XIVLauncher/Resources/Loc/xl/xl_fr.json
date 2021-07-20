@@ -56,7 +56,7 @@
     "description": "MainWindow.PrepareLogin"
   },
   "EmailUsernameError": {
-    "message": "Please enter your SE account name, not your email address.",
+    "message": "Veuillez entrer votre nom de compte SE, et non votre adresse email.",
     "description": "MainWindow.PrepareLogin"
   },
   "EmptyPasswordError": {
@@ -172,11 +172,11 @@
     "description": "ChangeLogWindowViewModel.SetupLoc"
   },
   "SendEmail": {
-    "message": "Send Email",
+    "message": "Envoyer un email",
     "description": "ChangeLogWindowViewModel.SetupLoc"
   },
   "EmailInfo": {
-    "message": "XIVLauncher is free, open-source software - it doesn't use any telemetry or analysis tools to collect your data, but it would help a lot if you could send me a short email with your operating system, why you use XIVLauncher and, if needed, any criticism or things we can do better. Your email will be deleted immediately after evaluation.\n\nThank you very much!",
+    "message": "XIVLauncher est un logiciel gratuit et open-source - il n'utilise aucun outil de télémétrie ou d'analyse pour collecter vos données, mais cela aiderait beaucoup si vous pouviez m'envoyer un court e-mail comprenant: Votre système d'exploitation, pourquoi vous utilisez XIVLauncher et, si nécessaire, des critiques ou suggestions d'amélioration. Votre email sera supprimé immédiatement après l'évaluation.\n\nMerci beaucoup !",
     "description": "ChangeLogWindowViewModel.SetupLoc"
   },
   "OK": {
@@ -372,7 +372,7 @@
     "description": "PatchDownloadDialogViewModel.SetupLoc"
   },
   "PatchInstallingIdle": {
-    "message": "Waiting for download...",
+    "message": "En attente de téléchargement...",
     "description": "PatchDownloadDialogViewModel.SetupLoc"
   },
   "PatchEta": {
@@ -572,7 +572,7 @@
     "description": "SettingsControlViewModel.SetupLoc"
   },
   "PatchAcquisitionMethod": {
-    "message": "Choose the method used to acquire patches. We recommend \"ARIA(HTTP)\".",
+    "message": "Choisissez la méthode à utiliser pour télécharger les patchs. Nous recommandons \"ARIA(HTTP)\".",
     "description": "SettingsControlViewModel.SetupLoc"
   },
   "SettingsAbout": {
@@ -640,7 +640,7 @@
     "description": "ProblemCheck.RunCheck"
   },
   "GShadeError": {
-    "message": "A broken GShade installation was detected.\n\nThe game cannot start. Do you want XIVLauncher to fix this? You will need to reinstall GShade.",
+    "message": "Une installation défectueuse de GShade a été détéctée.\n\nLe jeu ne peut pas démarrer. Voulez-vous que XIVLauncher corrige cela ? Vous devrez réinstaller GShade.",
     "description": "ProblemCheck.RunCheck"
   },
   "PatchInstallerNotOpen": {
